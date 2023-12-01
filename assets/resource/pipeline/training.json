@@ -5,6 +5,15 @@
 			"TapMax"
 		]
 	},
+	
+	"TapFree": {
+		"recognition": "TemplateMatch",
+		"template": "template/Training/TapFree.png",
+		"action": "Click",
+		"next": [
+			"TapExit_training"
+		]
+	},
 
 	"Tap": {
 		"recognition": "TemplateMatch",
@@ -24,16 +33,7 @@
 		]
 	},
 	
-	"TapFree": {
-		"recognition": "TemplateMatch",
-		"template": "template/Training/TapFree.png",
-		"action": "Click",
-		"next": [
-			"TapExit"
-		]
-	},
-	
-	"TapExit": {
+	"TapExit_training": {
 		"recognition": "TemplateMatch",
 		"template": "template/Training/TapExit.png",
 		"action": "Click"

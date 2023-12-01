@@ -47,7 +47,7 @@
 		]
 	},
 	
-	"TapExit": {
+	"TapExit_awards": {
 		"recognition": "TemplateMatch",
 		"template": "template/awards/TapExit.png",
 		"action": "Click",
