@@ -8,7 +8,7 @@
 	
 	"TapFree": {
 		"recognition": "TemplateMatch",
-		"template": "template/Training/TapFree.png",
+		"template": "training/TapFree.png",
 		"action": "Click",
 		"next": [
 			"TapExit_training"
@@ -17,7 +17,7 @@
 
 	"Tap": {
 		"recognition": "TemplateMatch",
-		"template": "template/Training/Tap.png",
+		"template": "training/Tap.png",
 		"action": "Click",
 		"next": [
 			"TapFree"
@@ -26,7 +26,7 @@
 
 	"TapMax": {
 		"recognition": "TemplateMatch",
-		"template": "template/Training/TapMax.png",
+		"template": "training/TapMax.png",
 		"action": "Click",
 		"next": [
 			"TapFree"
@@ -35,7 +35,7 @@
 	
 	"TapExit_training": {
 		"recognition": "TemplateMatch",
-		"template": "template/Training/TapExit.png",
+		"template": "training/TapExit.png",
 		"action": "Click"
 	}
 }
