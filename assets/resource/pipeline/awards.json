@@ -1,5 +1,5 @@
 {
-	"Awards": {
+	"awards": {
 		"next": [
 			"Gift"
 		]
@@ -7,7 +7,7 @@
 	
 	"Gift": {
 		"recognition": "TemplateMatch",
-		"template": "template/awards/Gift.png",
+		"template": "awards/Gift.png",
 		"action": "Click",
 		"post_wait_freezes": 1,
 		"next": [
@@ -19,7 +19,7 @@
 	
 	"GetGift": {
 		"recognition": "TemplateMatch",
-		"template": "template/awards/GetGift.png",
+		"template": "awards/GetGift.png",
 		"roi": [
 			531,
 			1040,
@@ -34,7 +34,7 @@
 	
 	"GetGiftExit": {
 		"recognition": "TemplateMatch",
-		"template": "template/awards/GetGiftExit.png",
+		"template": "awards/GetGiftExit.png",
 		"roi": [
 			286,
 			1120,
@@ -49,7 +49,7 @@
 	
 	"TapExit_awards": {
 		"recognition": "TemplateMatch",
-		"template": "template/awards/TapExit.png",
+		"template": "awards/TapExit.png",
 		"action": "Click",
 		"next": [
 			"GiftExit"
@@ -58,7 +58,7 @@
 	
 	"GiftExit": {
 		"recognition": "TemplateMatch",
-		"template": "template/awards/GiftExit.png",
+		"template": "awards/GiftExit.png",
 		"roi": [
 			238,
 			1133,
